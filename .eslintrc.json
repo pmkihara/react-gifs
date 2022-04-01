@@ -7,7 +7,15 @@
     "react/prop-types": 0,
     "arrow-body-style": 0,
     "space-before-function-paren": 0,
-    "array-bracket-spacing": "off"
+    "array-bracket-spacing": "off",
+    "react/destructuring-assignment": [
+      "always",
+      {
+        "ignoreClassFields": true,
+        "destructureInSignature": "ignore"
+      }
+    ]
+
   },
   "env": {
     "browser": true
